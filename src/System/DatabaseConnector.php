@@ -23,6 +23,7 @@ class DatabaseConnector {
             exit($e->getMessage());
         }
     }
+
     public function getConnection()
     {
         return $this->dbConnection;
